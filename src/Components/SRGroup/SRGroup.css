@@ -1,0 +1,120 @@
+.companies-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 80px; 
+    padding: 0px 60px 10px 60px;
+    align-items: center;
+}
+
+.companies-grid.partners {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 800px) {
+    .companies-grid {
+        column-gap: 40px; 
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 50px; 
+        padding: 0px 60px 10px 60px;
+        align-items: center;     
+    }
+
+    .companies-grid.partners {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .companies-grid {
+        column-gap: 40px; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .companies-grid {
+        column-gap: 40px; 
+    }
+}
+
+.companies-container {
+    width: 100%;
+    background-color:#EEECDE;
+    color: black;
+}
+
+.companies-container h1 {
+    align-self: flex-start;
+    justify-self: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.company-item img {
+    width: 100%;
+    height: auto;
+}
+
+.reviews{
+    min-height: 750px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.reviews h1{
+    justify-self: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    margin-bottom: 60px;
+    margin-right: 50px;
+}
+
+.reviews-bg {
+    background-image: url('../../assets/13.png');
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: cover; /* Makes the background image cover the entire container */
+    background-position: center; /* Centers the background image */
+}
+
+.reviews-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    padding-bottom: 60px;
+    width: 75%;
+    margin: auto; /* Add this line */
+    font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+    .reviews-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .review-card {
+        font-size: 36px;
+        min-height: auto; /* Add this line */
+        justify-content: flex-start;
+    }
+    .review-author{
+        margin-top: 20px;
+    }
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#EEECDE;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: auto;
+    min-height: 390px;
+}
+
+.stars {
+    color: gold;
+}

@@ -1,0 +1,26 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+    background: transparent;
+    width: 100%; /* Full width to cover the top */
+    z-index: 1000; /* Ensures the navbar is above other content */
+    height: 60px; /* Fixed height for the navbar */
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        display: none;
+    }
+}
