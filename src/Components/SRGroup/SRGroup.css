@@ -8,6 +8,7 @@
 
 .companies-grid.partners {
     grid-template-columns: repeat(4, 1fr);
+    gap: 200px;
 }
 
 @media (max-width: 800px) {
