@@ -3,7 +3,6 @@ import './Navbar.css'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState('home');
   const [gapSize, setGapSize] = useState(10); // Default gap size
   const [fontSize, setFontSize] = useState(20); // Default font size
 
@@ -52,10 +51,10 @@ const Navbar = () => {
   return (
       <div className='navbar'>
       <ul className="nav-menu" style={{ gap: `${gapSize}px`, fontSize: `${fontSize}px` }}>
-            <Link to="whoweare" spy={true} smooth={true} duration={200} offset={-100} onSetActive={() => setActiveLink('whoweare')}>Quem Somos?</Link>
-            <Link to="services" spy={true} smooth={true} duration={200} offset={45} onSetActive={() => setActiveLink('services')}>Serviços</Link>
-            <Link to="srgroup" spy={true} smooth={true} duration={200} offset={+5} onSetActive={() => setActiveLink('srgroup')}>SR Group</Link>
-            <Link to="contacts" spy={true} smooth={true} duration={200} offset={+60} onSetActive={() => setActiveLink('contacts')}>Contactos</Link>
+            <Link to="whoweare" spy={true} smooth={true} duration={200} offset={-100}>Quem Somos?</Link>
+            <Link to="services" spy={true} smooth={true} duration={200} offset={45}>Serviços</Link>
+            <Link to="srgroup" spy={true} smooth={true} duration={200} offset={+5}>SR Group</Link>
+            <Link to="contacts" spy={true} smooth={true} duration={200} offset={+60}>Contactos</Link>
           </ul>
       </div>
   )

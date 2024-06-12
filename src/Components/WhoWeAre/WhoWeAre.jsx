@@ -1,4 +1,3 @@
-import React from 'react';
 import './WhoWeAre.css';
 import SRGroupLogo from '../../assets/SRGroupLogoTransparent2.png';
 import bedroomImage from '../../assets/7.png';

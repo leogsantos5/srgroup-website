@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/srgroup-website/static/css/main.d17b15c1.css",
+    "main.js": "/srgroup-website/static/js/main.b30e3916.js",
+    "static/media/5.png": "/srgroup-website/static/media/5.c5146666c1d3d7e25036.png",
+    "static/media/3.png": "/srgroup-website/static/media/3.2d36380b11883430082c.png",
+    "static/media/13.png": "/srgroup-website/static/media/13.fa0a266ebed728cf22e8.png",
+    "static/media/1.png": "/srgroup-website/static/media/1.a70de9088a690f1b364e.png",
+    "static/media/4.png": "/srgroup-website/static/media/4.54f49c865886ab223b9c.png",
+    "static/media/6.png": "/srgroup-website/static/media/6.2df09b1455bcd6c15b39.png",
+    "static/media/2.png": "/srgroup-website/static/media/2.cce54edc3dd6488e5b20.png",
+    "static/media/12.png": "/srgroup-website/static/media/12.f1314a8a2b31c8aa0b94.png",
+    "static/media/7.png": "/srgroup-website/static/media/7.abc29f84834238880bbd.png",
+    "static/media/17.png": "/srgroup-website/static/media/17.9dc7f50cfc771edca9ba.png",
+    "static/media/tallBuilding.png": "/srgroup-website/static/media/tallBuilding.b6be8433668c23fd4912.png",
+    "static/media/18.png": "/srgroup-website/static/media/18.49162d479e4298e5c155.png",
+    "static/media/23.png": "/srgroup-website/static/media/23.0df587406338ff93ef41.png",
+    "static/media/20.png": "/srgroup-website/static/media/20.00dda882c270da7fd2ed.png",
+    "static/media/22.png": "/srgroup-website/static/media/22.17b198dcb8a41e2e219e.png",
+    "static/media/EcoCleaningLogo.png": "/srgroup-website/static/media/EcoCleaningLogo.e54b98c3fcb0da7824a2.png",
+    "static/media/InstanbulKebabLogo.png": "/srgroup-website/static/media/InstanbulKebabLogo.04f12ba6f7eb05a293e5.png",
+    "static/media/EcoCleaningService.png": "/srgroup-website/static/media/EcoCleaningService.e5cb7d260fb6232b55a8.png",
+    "static/media/SRGroupLogoTransparent2.png": "/srgroup-website/static/media/SRGroupLogoTransparent2.5c6a076c77e8d58bde06.png",
+    "static/media/21.png": "/srgroup-website/static/media/21.659080cdfbd6c98a8839.png",
+    "static/media/EcoTexLogo.png": "/srgroup-website/static/media/EcoTexLogo.4768b28710f75bf76a8a.png",
+    "static/media/16.png": "/srgroup-website/static/media/16.f6b7b82a4d500363c56f.png",
+    "static/media/16.jpg": "/srgroup-website/static/media/16.a0c554a568f0651b3aca.jpg",
+    "index.html": "/srgroup-website/index.html",
+    "main.d17b15c1.css.map": "/srgroup-website/static/css/main.d17b15c1.css.map",
+    "main.b30e3916.js.map": "/srgroup-website/static/js/main.b30e3916.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17b15c1.css",
+    "static/js/main.b30e3916.js"
+  ]
+}
