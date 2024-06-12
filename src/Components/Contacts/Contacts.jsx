@@ -1,4 +1,3 @@
-import React from 'react';
 import './Contacts.css'; // Assuming you have a CSS file for styling
 import logo from '../../assets/SRGroupLogoTransparent2.png'; // Assuming this is the path to your logo
 

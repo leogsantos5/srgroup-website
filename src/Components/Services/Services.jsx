@@ -1,4 +1,3 @@
-import React from 'react';
 import './Services.css';
 import ConsultoriaImobImg from '../../assets/6.png';
 import CityAlleyImg from '../../assets/5.png';

@@ -1,4 +1,3 @@
-import React from 'react';
 import './SRGroup.css';
 import SRGroupLogo from '../../assets/SRGroupLogoTransparent2.png';
 import EcoCleaningLogo from '../../assets/EcoCleaningLogo.png';
