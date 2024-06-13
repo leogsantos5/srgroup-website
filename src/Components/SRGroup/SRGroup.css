@@ -1,39 +1,32 @@
 .companies-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    column-gap: 80px; 
+    gap: 5%; 
     padding: 0px 60px 10px 60px;
     align-items: center;
 }
 
-.companies-grid.partners {
+@media (max-width: 800px) {
+    .companies-grid {
+        grid-template-columns: repeat(1, 1fr); 
+        padding-top: 20px;
+        gap: 50px;    
+    }
+}
+
+.partners-grid {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 200px;
+    gap: 8%;
+    padding: 0 12%;
+    align-items: center;
 }
 
 @media (max-width: 800px) {
-    .companies-grid {
-        column-gap: 40px; 
-        grid-template-columns: repeat(1, 1fr); 
-        gap: 50px; 
-        padding: 0px 60px 10px 60px;
-        align-items: center;     
-    }
-
-    .companies-grid.partners {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media (max-width: 1000px) {
-    .companies-grid {
-        column-gap: 40px; 
-    }
-}
-
-@media (max-width: 1200px) {
-    .companies-grid {
-        column-gap: 40px; 
+    .partners-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+        padding-top: 20px;
+        gap: 50px; /* Increase space between images on mobile */
     }
 }
 

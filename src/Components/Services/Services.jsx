@@ -14,7 +14,7 @@ const Services = () => {
     const services = [
         { id: 1, title: 'Consultoria Imobiliária', image: ConsultoriaImobImg },
         { id: 2, title: 'Consultoria', image: ConsultoriaImg },
-        { id: 3, title: 'Gestão de Alojamneto Local', image: ALManagImg },
+        { id: 3, title: 'Gestão de Alojamento Local', image: ALManagImg },
         { id: 4, title: 'Lavandaria', image: WashingImg },
         { id: 5, title: 'Limpeza', image: CleaningImg },
         { id: 6, title: 'Reparações', image: RepairementsImg },
