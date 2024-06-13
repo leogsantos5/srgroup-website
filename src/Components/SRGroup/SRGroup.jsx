@@ -61,7 +61,7 @@ const SRGroup = () => {
                 <hr style={{borderTop: '2px solid black', width: '92%'}}/>
             </div>
             <h1 className='companies-title'>Parceiros:</h1>
-            <div className="companies-grid partners">
+            <div className="partners-grid">
                 {partners.map(partner => (
                     <div key={partner.id} className="company-item">
                         <img src={partner.image} />
