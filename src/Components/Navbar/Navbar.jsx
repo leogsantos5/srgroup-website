@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
       <div className='navbar'>
       <ul className="nav-menu" style={{ gap: `${gapSize}px`, fontSize: `${fontSize}px` }}>
-            <Link to="whoweare" spy={true} smooth={true} duration={200} offset={-100}>Quem Somos?</Link>
+            <Link to="whoweare" spy={true} smooth={true} duration={200} offset={+730}>Quem Somos?</Link>
             <Link to="services" spy={true} smooth={true} duration={200} offset={45}>Serviços</Link>
             <Link to="srgroup" spy={true} smooth={true} duration={200} offset={+5}>SR Group</Link>
             <Link to="contacts" spy={true} smooth={true} duration={200} offset={+60}>Contactos</Link>
