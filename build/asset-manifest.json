@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/srgroup-website/static/css/main.d17b15c1.css",
-    "main.js": "/srgroup-website/static/js/main.a01b9df3.js",
+    "main.css": "/srgroup-website/static/css/main.27720de1.css",
+    "main.js": "/srgroup-website/static/js/main.00f7b9cc.js",
     "static/media/5.png": "/srgroup-website/static/media/5.c5146666c1d3d7e25036.png",
     "static/media/3.png": "/srgroup-website/static/media/3.2d36380b11883430082c.png",
     "static/media/13.png": "/srgroup-website/static/media/13.fa0a266ebed728cf22e8.png",
@@ -26,11 +26,11 @@
     "static/media/16.png": "/srgroup-website/static/media/16.f6b7b82a4d500363c56f.png",
     "static/media/16.jpg": "/srgroup-website/static/media/16.a0c554a568f0651b3aca.jpg",
     "index.html": "/srgroup-website/index.html",
-    "main.d17b15c1.css.map": "/srgroup-website/static/css/main.d17b15c1.css.map",
-    "main.a01b9df3.js.map": "/srgroup-website/static/js/main.a01b9df3.js.map"
+    "main.27720de1.css.map": "/srgroup-website/static/css/main.27720de1.css.map",
+    "main.00f7b9cc.js.map": "/srgroup-website/static/js/main.00f7b9cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d17b15c1.css",
-    "static/js/main.a01b9df3.js"
+    "static/css/main.27720de1.css",
+    "static/js/main.00f7b9cc.js"
   ]
 }
